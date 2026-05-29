@@ -1,0 +1,9 @@
+{
+  "name": "ai-side-lab",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "python3 -m http.server 4173",
+    "check": "python3 ops/check_content.py"
+  }
+}

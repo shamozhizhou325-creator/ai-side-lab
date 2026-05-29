@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI副业实验室 | 每周验证一个低成本副业项目</title>
+    <meta
+      name="description"
+      content="一个面向普通人的 AI 副业实验操作系统：每周公开验证一个低成本项目，沉淀工具、模板、自动化流程和真实复盘。"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="AI副业实验室">
+        <img src="./public/assets/avatar.png" alt="" />
+        <span>AI副业实验室</span>
+      </a>
+      <nav aria-label="主导航">
+        <a href="#method">方法</a>
+        <a href="#experiment">实验001</a>
+        <a href="#tool">工具</a>
+        <a href="#templates">模板</a>
+        <a href="#safety">合规</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">AI Side Project Operating System</p>
+          <h1>把副业想法变成可验证的小实验</h1>
+          <p class="lead">
+            我们不做口号式副业号。每周只验证一个低成本项目：先公开假设，再上线工具或模板，最后用数据复盘是否继续。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#tool">试用实验器</a>
+            <a class="button secondary" href="#templates">查看首批资产</a>
+          </div>
+        </div>
+        <aside class="lab-card" aria-label="实验室状态">
+          <div class="lab-card-head">
+            <span>当前 Sprint</span>
+            <strong>001</strong>
+          </div>
+          <div class="metric-row">
+            <span>实验主题</span>
+            <strong>选题标题工具</strong>
+          </div>
+          <div class="metric-row">
+            <span>投入成本</span>
+            <strong>¥0</strong>
+          </div>
+          <div class="metric-row">
+            <span>判断标准</span>
+            <strong>真实反馈</strong>
+          </div>
+          <p>先验证需求，再决定是否产品化。</p>
+        </aside>
+      </section>
+
+      <section class="method" id="method">
+        <div class="section-head">
+          <p class="eyebrow">Method</p>
+          <h2>不是模板库，是实验闭环</h2>
+        </div>
+        <div class="method-grid">
+          <article>
+            <span>01</span>
+            <h3>发现需求</h3>
+            <p>从小红书、GitHub、YouTube、X 和真实评论里找具体痛点，而不是追泛热点。</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>做最小交付</h3>
+            <p>每次只交付一个能用的小东西：网页工具、模板、清单、自动化流程或复盘表。</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>公开测试</h3>
+            <p>用内容发布收集收藏、评论、私信和领取数据，拒绝虚构案例。</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>复盘产品化</h3>
+            <p>有反馈就升级成模板包、工具或服务；没反馈就记录失败原因并换方向。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="experiment-shell" id="experiment">
+        <div class="experiment-copy">
+          <p class="eyebrow">Experiment 001</p>
+          <h2>小红书标题与选题实验器</h2>
+          <p>
+            这个实验验证一个假设：很多人不是缺 AI 工具，而是缺一个安全、可发布、可复盘的内容结构。
+          </p>
+        </div>
+        <div class="experiment-board">
+          <div>
+            <span class="label">目标用户</span>
+            <p>想低成本尝试 AI 副业，但不知道第一篇内容怎么写的人。</p>
+          </div>
+          <div>
+            <span class="label">最小交付</span>
+            <p>标题生成、内容角度、发布前合规检查、免费模板。</p>
+          </div>
+          <div>
+            <span class="label">成功信号</span>
+            <p>收藏、评论、私信、模板领取、网站访问。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="tool-section" id="tool">
+        <div class="tool-intro">
+          <p class="eyebrow">Interactive Tool</p>
+          <h2>生成一版可发布内容骨架</h2>
+          <p>
+            这个工具不是为了制造夸张标题，而是把你的想法变成“能安全发布、能被复盘”的内容草稿。
+          </p>
+        </div>
+        <form class="tool" id="titleTool">
+          <label>
+            你的项目想法
+            <textarea id="idea" name="idea" rows="3">用AI做小红书标题生成器</textarea>
+          </label>
+          <label>
+            目标用户
+            <input id="audience" name="audience" value="想低成本尝试AI副业的新手" />
+          </label>
+          <div class="form-row">
+            <label>
+              内容阶段
+              <select id="stage" name="stage">
+                <option>启动记录</option>
+                <option>过程复盘</option>
+                <option>模板分享</option>
+                <option>失败复盘</option>
+              </select>
+            </label>
+            <label>
+              行业预设
+              <select id="preset" name="preset">
+                <option>普通副业实验</option>
+                <option>本地门店</option>
+                <option>内容创作者</option>
+                <option>跨境卖家</option>
+                <option>求职简历</option>
+              </select>
+            </label>
+          </div>
+          <button type="submit">生成实验稿</button>
+        </form>
+        <div class="output" id="output" aria-live="polite"></div>
+      </section>
+
+      <section class="templates" id="templates">
+        <div class="section-head">
+          <p class="eyebrow">Assets</p>
+          <h2>首批可交付资产</h2>
+        </div>
+        <div class="asset-grid">
+          <a href="./templates/free/xhs-title-lab.md">
+            <span class="asset-type">Free</span>
+            <strong>小红书选题标题模板</strong>
+            <p>把一个想法拆成标题、角度、正文结构和话题。</p>
+          </a>
+          <a href="./templates/free/side-project-validation.md">
+            <span class="asset-type">Free</span>
+            <strong>低成本副业验证清单</strong>
+            <p>判断项目是否值得做，避免上来就重投入。</p>
+          </a>
+          <a href="./templates/free/local-business-copy.md">
+            <span class="asset-type">Free</span>
+            <strong>本地商家文案包</strong>
+            <p>用于门店朋友圈、小红书和活动文案的基础结构。</p>
+          </a>
+          <a href="./templates/free/experiment-canvas.md">
+            <span class="asset-type">Free</span>
+            <strong>AI副业实验画布</strong>
+            <p>把想法拆成用户、痛点、交付物、验证信号和退出条件。</p>
+          </a>
+          <a href="./templates/paid/ai-side-start-pack-outline.md">
+            <span class="asset-type paid">Draft</span>
+            <strong>AI副业启动包雏形</strong>
+            <p>付费包候选，先用内容验证需求再售卖。</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="safety" id="safety">
+        <div class="section-head">
+          <p class="eyebrow">Compliance</p>
+          <h2>发布前必须过的六条线</h2>
+        </div>
+        <div class="safety-grid">
+          <p>不承诺收益</p>
+          <p>不教违规玩法</p>
+          <p>不碰投资建议</p>
+          <p>不虚构数据</p>
+          <p>不公开隐私</p>
+          <p>不制造焦虑</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <strong>AI副业实验室</strong>
+      <span>每周一个低成本实验，能跑再说，跑不通也复盘。</span>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
