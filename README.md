@@ -29,10 +29,16 @@ https://ai-side-lab-zeta.vercel.app
 - `content/xiaohongshu/covers`：小红书封面图
 - `data/feishu`：飞书导入表
 - `ops`：运营与合规检查
+- `scripts/build-feishu-workbook.mjs`：生成飞书/Excel 运营驾驶舱工作簿
+- `scripts/verify-feishu-workbook.mjs`：验证工作簿关键表格
 
 ## 飞书后台
 
-飞书作为项目运营驾驶舱使用，导入 `data/feishu` 里的 CSV：
+飞书作为项目运营驾驶舱使用。桌面项目文件夹里已有合并好的工作簿：
+
+`/Users/lee/Desktop/AI副业实验室/05-数据复盘/AI副业实验室-飞书运营驾驶舱.xlsx`
+
+也可以分别导入 `data/feishu` 里的 CSV：
 
 - `experiments.csv`：实验看板
 - `publish-calendar.csv`：发布日历
