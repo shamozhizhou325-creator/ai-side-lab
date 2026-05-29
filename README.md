@@ -14,6 +14,10 @@
 - 发布第一批小红书笔记
 - 用 30 天验证真实反馈
 
+公开网站：
+
+https://ai-side-lab-zeta.vercel.app
+
 ## 目录
 
 - `index.html`：第一版网站
@@ -22,7 +26,18 @@
 - `templates/free`：免费模板
 - `templates/paid`：付费包雏形
 - `content/xiaohongshu`：小红书草稿
+- `content/xiaohongshu/covers`：小红书封面图
+- `data/feishu`：飞书导入表
 - `ops`：运营与合规检查
+
+## 飞书后台
+
+飞书作为项目运营驾驶舱使用，导入 `data/feishu` 里的 CSV：
+
+- `experiments.csv`：实验看板
+- `publish-calendar.csv`：发布日历
+- `feedback-log.csv`：用户反馈
+- `metrics-review.csv`：数据复盘
 
 ## 合规原则
 
@@ -32,4 +47,3 @@
 - 不虚构案例
 - 不公开隐私和收款码
 - 所有内容都按“个人实验记录”表达
-
