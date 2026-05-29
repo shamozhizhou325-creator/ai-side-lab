@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "build": "rm -rf dist && mkdir -p dist && cp -R index.html styles.css app.js public templates dist/",
     "start": "python3 -m http.server 4173",
     "check": "python3 ops/check_content.py"
   }
