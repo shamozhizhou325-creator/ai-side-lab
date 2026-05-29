@@ -1,5 +1,9 @@
 # 小红书笔记 003
 
+## 封面
+
+`content/xiaohongshu/covers/003-free-template-cover.png`
+
 ## 标题
 
 我把AI副业启动清单整理出来了，先免费放出来
@@ -37,4 +41,3 @@
 - 没有夸大结果
 - 没有灰产玩法
 - 没有公开收款码
-

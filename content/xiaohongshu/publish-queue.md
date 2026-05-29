@@ -23,6 +23,7 @@
 1. `001-launch-note.md`：账号启动说明
 2. `002-title-tool-note.md`：标题工具介绍
 3. `003-free-template-note.md`：免费验证清单
+4. `004-weekly-review-note.md`：第一周数据复盘
 
 ## 复盘指标
 

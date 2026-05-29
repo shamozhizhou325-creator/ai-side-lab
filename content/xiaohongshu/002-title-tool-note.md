@@ -1,5 +1,9 @@
 # 小红书笔记 002
 
+## 封面
+
+`content/xiaohongshu/covers/002-title-tool-cover.png`
+
 ## 标题
 
 第1个AI副业实验：我先做了一个标题生成器
