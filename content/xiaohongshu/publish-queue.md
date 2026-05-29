@@ -25,6 +25,8 @@
 3. `003-free-template-note.md`：免费验证清单
 4. `004-weekly-review-note.md`：第一周数据复盘
 
+手机发布版在 `mobile-publish/`，每篇都已经拆好封面、标题、正文、话题和发布后记录项。
+
 ## 复盘指标
 
 - 收藏数
