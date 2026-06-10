@@ -22,6 +22,21 @@
 - 允许屏幕按系统设置熄灭。
 - 插电时更稳定。
 
+## 2026-06-10 已完成系统级插电设置
+
+Jack 已手动执行：
+
+`sudo pmset -c sleep 0 disksleep 0 displaysleep 30`
+
+当前验证结果：
+
+- AC Power `sleep = 0`
+- AC Power `disksleep = 0`
+- AC Power `displaysleep = 30`
+- `caffeinate -ims` 正在运行
+
+这意味着：插电时系统不会因空闲自动睡眠，磁盘也不会因空闲睡眠，屏幕 30 分钟后可熄灭。
+
 ## 重要限制
 
 MacBook 合上屏幕后，macOS 通常会触发合盖睡眠。  
