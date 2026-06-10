@@ -63,6 +63,10 @@
 
 `templates/free/local-store-intake-questionnaire.md`
 
+配套咨询回复：
+
+`templates/free/local-store-service-replies.md`
+
 不承诺：
 
 - 不承诺涨粉。

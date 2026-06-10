@@ -99,3 +99,8 @@
 - 不承诺到店人数或成交。
 - 不使用绝对化宣传。
 - 不泄露顾客隐私。
+
+## 配套文件
+
+- 采集问卷：`templates/free/local-store-intake-questionnaire.md`
+- 咨询回复话术：`templates/free/local-store-service-replies.md`
