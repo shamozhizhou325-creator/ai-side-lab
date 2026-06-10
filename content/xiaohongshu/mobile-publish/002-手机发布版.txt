@@ -46,6 +46,12 @@ content/xiaohongshu/covers/002-title-tool-cover.png
 【话题】
 #AI副业实验室 #AI工具 #小红书标题 #副业记录 #普通人副业 #真实复盘
 
+【工具链接】
+https://ai-side-lab-zeta.vercel.app/#tool
+
+【发布前提醒】
+不写“扣 1”，不强行引导私信，不承诺收益。
+
 【发布后立刻记录】
 发布时间：
 小红书链接：
