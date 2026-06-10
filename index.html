@@ -119,6 +119,10 @@
           <p>
             这个工具不是为了制造夸张标题，而是把你的想法变成“能安全发布、能被复盘”的内容草稿。
           </p>
+          <div class="tool-links" aria-label="工具操作">
+            <button class="button secondary small" id="copyToolLink" type="button">复制工具链接</button>
+            <a class="button secondary small" href="./templates/free/xhs-title-lab.md">查看模板</a>
+          </div>
         </div>
         <form class="tool" id="titleTool">
           <label>
@@ -152,7 +156,14 @@
           </div>
           <button type="submit">生成实验稿</button>
         </form>
-        <div class="output" id="output" aria-live="polite"></div>
+        <div class="output-wrap">
+          <div class="output-actions">
+            <span>生成结果</span>
+            <button class="button secondary small" id="copyOutput" type="button">复制结果</button>
+          </div>
+          <div class="output" id="output" aria-live="polite"></div>
+          <p class="copy-status" id="copyStatus" aria-live="polite"></p>
+        </div>
       </section>
 
       <section class="templates" id="templates">

@@ -96,6 +96,27 @@ function section(title, items, ordered = false) {
   `;
 }
 
+function outputPlainText() {
+  const blocks = [...document.querySelectorAll(".output-section")];
+  return blocks
+    .map((block) => {
+      const title = block.querySelector("h3")?.innerText?.trim() || "";
+      const items = [...block.querySelectorAll("li")].map((item, index) => `${index + 1}. ${item.innerText.trim()}`);
+      return [`【${title}】`, ...items].join("\n");
+    })
+    .join("\n\n");
+}
+
+async function copyText(value, successText) {
+  const status = document.querySelector("#copyStatus");
+  try {
+    await navigator.clipboard.writeText(value);
+    if (status) status.innerText = successText;
+  } catch {
+    if (status) status.innerText = "复制失败，请手动选中内容复制。";
+  }
+}
+
 function renderOutput() {
   const idea = text("#idea", "一个AI副业想法");
   const audience = text("#audience", "想低成本尝试AI副业的新手");
@@ -113,6 +134,15 @@ function renderOutput() {
 document.querySelector("#titleTool").addEventListener("submit", (event) => {
   event.preventDefault();
   renderOutput();
+});
+
+document.querySelector("#copyOutput")?.addEventListener("click", () => {
+  copyText(outputPlainText(), "已复制生成结果。");
+});
+
+document.querySelector("#copyToolLink")?.addEventListener("click", () => {
+  const url = `${location.origin}${location.pathname}#tool`;
+  copyText(url, "已复制工具链接。");
 });
 
 renderOutput();

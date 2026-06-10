@@ -161,6 +161,13 @@ h3 {
   margin-top: 32px;
 }
 
+.tool-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
 .button,
 button {
   display: inline-flex;
@@ -174,6 +181,13 @@ button {
   cursor: pointer;
 }
 
+.button.small,
+button.small {
+  min-height: 38px;
+  padding: 9px 12px;
+  font-size: 14px;
+}
+
 .button.primary,
 button {
   background: var(--ink);
@@ -183,6 +197,7 @@ button {
 .button.secondary {
   border: 1px solid rgba(20, 20, 20, 0.16);
   background: rgba(255, 253, 248, 0.72);
+  color: var(--ink);
 }
 
 .lab-card {
@@ -390,6 +405,28 @@ textarea:focus {
   gap: 12px;
 }
 
+.output-wrap {
+  display: grid;
+  gap: 10px;
+}
+
+.output-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border: 1px solid rgba(20, 20, 20, 0.14);
+  border-radius: 8px;
+  background: rgba(255, 253, 248, 0.72);
+  padding: 10px;
+}
+
+.output-actions span {
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 900;
+}
+
 .output {
   min-height: 520px;
   overflow: auto;
@@ -426,6 +463,14 @@ textarea:focus {
 .output p {
   color: rgba(248, 243, 233, 0.78);
   line-height: 1.7;
+}
+
+.copy-status {
+  min-height: 22px;
+  margin: 0;
+  color: var(--teal);
+  font-size: 14px;
+  font-weight: 820;
 }
 
 .asset-grid {
