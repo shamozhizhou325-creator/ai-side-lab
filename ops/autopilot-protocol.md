@@ -89,12 +89,16 @@ AI副业实验室：真实验证普通人可执行的 AI 副业项目，沉淀�
 
 1. Codex 每天仍在当前线程生成工作包。
 2. 如果配置了飞书群机器人，Codex 可以把摘要推送到 Jack 手机飞书。
-3. Jack 可以在手机上打开当前 Codex 对话，直接回复确认、暂停、修改意见。
+3. 如果手机 GPT/Codex 无法连接当前线程，Jack 可以使用 GitHub Issue 手机指挥台评论短指令。
 
 ### 当前限制
 
 飞书自定义机器人默认适合“发送通知”，不等于 Codex 能自动读取 Jack 在飞书里的回复。  
-在没有额外接入消息读取能力前，Jack 在飞书里看到提醒后，最好回到 Codex 手机端/网页端回复指令。
+在没有额外接入消息读取能力前，Jack 在飞书里看到提醒后，可以去 GitHub Issue 手机指挥台回复指令。
+
+手机指挥台：
+
+https://github.com/shamozhizhou325-creator/ai-side-lab/issues/1
 
 ### 手机快捷指令
 
@@ -112,4 +116,4 @@ Jack 在手机上可以只发很短的命令：
 
 如果 `FEISHU_WEBHOOK_URL` 已配置，Codex 每次只推送压缩版：
 
-`【AI副业实验室】今日建议：... 需要你确认：... 回复 Codex：同意发布/暂停/改标题/重写。`
+`【AI副业实验室】今日建议：... 需要你确认：... 手机指挥台：https://github.com/shamozhizhou325-creator/ai-side-lab/issues/1 回复：同意发布/暂停/改标题/重写。`

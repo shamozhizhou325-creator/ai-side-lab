@@ -3,4 +3,5 @@ node_modules
 outputs/
 .env
 .env.*
+.codex-state/
 .DS_Store
