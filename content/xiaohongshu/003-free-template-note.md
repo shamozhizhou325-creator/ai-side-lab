@@ -2,7 +2,7 @@
 
 ## 封面
 
-`content/xiaohongshu/covers/003-free-template-cover.png`
+`content/xiaohongshu/covers/003-free-template-cover-v2.png`
 
 ## 标题
 
