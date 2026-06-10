@@ -59,6 +59,10 @@
 6. 5 条常见私信回复
 7. 发布后数据记录表
 
+配套采集问卷：
+
+`templates/free/local-store-intake-questionnaire.md`
+
 不承诺：
 
 - 不承诺涨粉。
