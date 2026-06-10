@@ -24,6 +24,43 @@ def rounded(draw, xy, radius, fill, outline=None, width=1):
     draw.rounded_rectangle(xy, radius=radius, fill=fill, outline=outline, width=width)
 
 
+def cover_001_v2():
+    img = Image.new("RGB", (W, H), "#f4efe5")
+    d = ImageDraw.Draw(img)
+
+    for x in range(-H, W, 86):
+        d.line((x, 0, x + H, H), fill="#e5d9c6", width=2)
+    for x in range(0, W, 54):
+        d.line((x, 0, x, H), fill="#eadfce", width=1)
+    for y in range(0, H, 54):
+        d.line((0, y, W, y), fill="#eadfce", width=1)
+
+    d.rectangle((0, 0, W, 170), fill="#111111")
+    d.text((82, 58), "SIDE PROJECT FIELD NOTE", font=font(36), fill="#f7f1e6")
+    d.text((920, 52), "001", font=font(72, 8), fill="#f2c94c")
+
+    rounded(d, (82, 238, 394, 310), 36, "#c94435")
+    d.text((122, 255), "不是卖课", font=font(34, 8), fill="#ffffff")
+    rounded(d, (420, 238, 744, 310), 36, "#0f766e")
+    d.text((460, 255), "不是口号", font=font(34, 8), fill="#ffffff")
+
+    d.text((82, 392), "我拿30天", font=font(102, 8), fill="#111111")
+    d.text((82, 520), "做一场", font=font(102, 8), fill="#111111")
+    d.text((82, 648), "AI副业实验", font=font(116, 8), fill="#111111")
+
+    d.rectangle((82, 820, W - 82, 832), fill="#c94435")
+    rounded(d, (82, 902, W - 82, 1228), 28, "#111111")
+    d.text((132, 970), "只公开四件事：", font=font(42, 8), fill="#f2c94c")
+    d.text((132, 1048), "工具  /  模板  /  数据  /  翻车复盘", font=font(42, 8), fill="#ffffff")
+    d.text((132, 1130), "能跑就升级，跑不通就换方向", font=font(38), fill="#d8d1c4")
+
+    rounded(d, (82, 1326, W - 82, 1438), 20, "#fffaf0", "#111111", 3)
+    d.text((128, 1354), "第001号实验：小红书标题与选题实验器", font=font(38, 8), fill="#0f766e")
+
+    d.text((82, 1514), "普通人副业，不靠玄学，靠验证。", font=font(44, 8), fill="#111111")
+    return img
+
+
 def cover_002():
     img = Image.new("RGB", (W, H), "#f6f1e8")
     d = ImageDraw.Draw(img)
@@ -83,6 +120,7 @@ def save_all():
     OUT.mkdir(parents=True, exist_ok=True)
     DESKTOP.mkdir(parents=True, exist_ok=True)
     covers = {
+        "001-launch-cover-v2.png": cover_001_v2(),
         "002-title-tool-cover.png": cover_002(),
         "003-free-template-cover.png": cover_003(),
     }
