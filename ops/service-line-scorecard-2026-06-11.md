@@ -67,6 +67,10 @@
 
 `templates/free/local-store-service-replies.md`
 
+体验版报价边界：
+
+`templates/paid/local-store-starter-offer.md`
+
 不承诺：
 
 - 不承诺涨粉。
