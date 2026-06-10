@@ -1,4 +1,19 @@
 import crypto from "node:crypto";
+import fs from "node:fs";
+
+function loadLocalEnv() {
+  for (const file of [".env.local", ".env"]) {
+    if (!fs.existsSync(file)) continue;
+    const lines = fs.readFileSync(file, "utf8").split(/\r?\n/);
+    for (const line of lines) {
+      const match = line.match(/^([A-Z0-9_]+)=(.*)$/);
+      if (!match || process.env[match[1]]) continue;
+      process.env[match[1]] = match[2].replace(/^['"]|['"]$/g, "");
+    }
+  }
+}
+
+loadLocalEnv();
 
 const webhook = process.env.FEISHU_WEBHOOK_URL;
 const secret = process.env.FEISHU_WEBHOOK_SECRET;
