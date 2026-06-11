@@ -46,6 +46,8 @@
 - 体验版内部参考价为 49 元，但必须 Jack 确认后才能报价。
 - 若有人咨询，先用 `templates/free/local-store-service-replies.md` 初筛。
 - 若有人愿意提供门店信息，先用 `templates/free/local-store-intake-questionnaire.md` 收集，不索要敏感资料。
+- 获客验证计划：`ops/local-store-client-acquisition-plan.md`。
+- 客户可读样例页：`templates/paid/local-store-one-page-sample.md`。
 
 ### 第 4 步：跨平台情报与 90 分项目筛选
 
