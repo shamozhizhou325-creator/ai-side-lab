@@ -20,6 +20,7 @@
 - 建立本地门店内容采集问卷。
 - 建立本地门店咨询回复话术。
 - 建立体验版报价边界草案；未确认前不公开报价、不收款。
+- 建立跨平台情报雷达，持续观察小红书、抖音、YouTube、X/Twitter、GitHub 的可借鉴机会。
 
 ## 接下来 72 小时
 
@@ -45,6 +46,13 @@
 - 体验版内部参考价为 49 元，但必须 Jack 确认后才能报价。
 - 若有人咨询，先用 `templates/free/local-store-service-replies.md` 初筛。
 - 若有人愿意提供门店信息，先用 `templates/free/local-store-intake-questionnaire.md` 收集，不索要敏感资料。
+
+### 第 4 步：跨平台情报与 90 分项目筛选
+
+- 每周至少整理一次 `ops/cross-platform-intelligence-radar.md`。
+- 重点寻找“Codex 可高度代劳 + 低成本 + 合规 + 可收费”的方向。
+- Gemini 负责大范围扫描，Codex 负责筛选和落地。
+- 当前优先观察：AI agent 服务包、本地商家内容自动化、小红书第一篇内容诊断器、职场表达资产包。
 
 ## 需要用户配合的最少事项
 
