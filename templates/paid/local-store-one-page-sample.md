@@ -153,3 +153,9 @@
 判断标准不是“有没有立刻爆”，而是：
 
 `这套内容能不能帮小店持续发下去，并找到下一步优化方向。`
+
+## 更多行业样例
+
+内部样例库：
+
+`templates/paid/local-store-industry-samples.md`

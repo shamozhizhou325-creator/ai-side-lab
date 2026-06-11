@@ -39,6 +39,10 @@
 5. 摄影工作室
 6. 小餐饮
 
+行业样例库：
+
+`templates/paid/local-store-industry-samples.md`
+
 暂缓行业：
 
 - 医美
