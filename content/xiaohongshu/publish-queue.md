@@ -27,7 +27,7 @@
 1. `001-launch-note.md`：账号启动说明（已发布）
 2. `002-title-tool-note.md`：第 001 号实验工具交付
 3. `003-free-template-note.md`：本地门店 7 天内容包样例
-4. `004-weekly-review-note.md`：第一周数据复盘
+4. `004-prepublish-check-note.md`：发布前六道闸检查表
 
 手机发布版在 `mobile-publish/`，每篇都已经拆好封面、标题、正文、话题和发布后记录项。
 
